@@ -30,9 +30,6 @@ var run = function() {
     port: '18332',
   };
 
-  // config can also be an url, e.g.:
-  // var config = 'http://user:pass@127.0.0.1:18332';
-
   var rpc = new RpcClient(config);
 
   var txids = [];
@@ -77,4 +74,4 @@ var run = function() {
 
 **Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).**
 
-Copyright 2013-2018 BitPay, Inc.
+Copyright 2013-2014 BitPay, Inc.
